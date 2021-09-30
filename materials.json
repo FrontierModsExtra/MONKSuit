@@ -1,0 +1,33 @@
+[ 
+	{ 
+		"type": "material",
+		"id": "bryces_lattice",
+		
+		"name": "Bryce's Lattice",
+		
+		"density": 60,
+		"specific_heat_liquid": 0.79,
+		"specific_heat_solid": 0.52,
+		"latent_heat": 391,
+		
+		"bash_resist": 80,
+		"cut_resist": 6,
+		"bullet_resist": 80,
+		"acid_resist": 40,
+		"fire_resist": 3,
+		"elec_resist": 30,
+		"chip_resist": 100,
+		
+		"repaired_with": "scrap",
+		
+		"dmg_adj": [ 
+			"marked", 
+			"dented", 
+			"smashed", 
+			"shattered" 
+		],
+		
+		"bash_dmg_verb": "dented",
+		"cut_dmg_verb": "scratched" 
+	} 
+]

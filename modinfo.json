@@ -1,0 +1,19 @@
+[ 
+	{ 
+		"type": "MOD_INFO",
+		"id": "monk_suit",
+		
+		"name": "MONK Suit",
+		"description": "Adds the MONK suit: an ultralight skintight suit that significantly enhances wearer's agility and mobility.",
+		
+		"authors": [ 
+			"Hyperseeker" 
+		],
+		
+		"category": "items",
+		
+		"dependencies": [ 
+			"dda" 
+		] 
+	} 
+]

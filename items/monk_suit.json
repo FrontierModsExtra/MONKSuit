@@ -1,0 +1,81 @@
+[
+	{
+		"id": "monksuit",
+		"type": "ARMOR",
+		
+		"name": { 
+			"str": "MONK suit" 
+		},
+		"description": "Motion Overdrive, Notion Kinetic suit.  Tight yet comfortable full-body suit, it significantly enhances wearer's agility and mobility by amplifying applied kinetic energy from within.  The inverse -- that is, the exterior -- side of the suit acts in reverse, in effect providing extensive protection against projectiles, as well as blunt and piercing damage, though not cuts.",
+		
+		"weight": "1210 g",
+		"volume": "2980 ml",
+		
+		"to_hit": -3,
+		
+		"material": [ 
+			"bryces_lattice" 
+		],
+		
+		"symbol": "[",
+		"looks_like": "wetsuit",
+		"color": "dark_gray",
+		
+		"armor_portion_data": [ 
+			{ 
+				"covers": [ 
+					"torso",
+					"arm_l",
+					"arm_r",
+					"hand_l",
+					"hand_r",
+					"leg_l",
+					"leg_r",
+					"foot_l",
+					"foot_r" 
+				],
+				"coverage": 100,
+				"encumbrance": 0 
+			} 
+		],
+		
+		"warmth": 10,
+		"material_thickness": 0.2,
+		"environmental_protection": 8,
+		
+		"relic_data": { 
+			"passive_effects": [ 
+				{ 
+					"has": "WORN", 
+					"condition": "ALWAYS", 
+					"values": [ 
+						{ 
+							"value": "SPEED", 
+							"multiply": 0.25 
+						},
+						
+						{ 
+							"value": "DEXTERITY", 
+							"add": 6 
+						},
+						
+						{ 
+							"value": "BONUS_DODGE", 
+							"add": 2 
+						} 
+					] 
+				} 
+			] 
+		},
+		
+		"flags": [ 
+			"VARSIZE",
+			"WATER_FRIENDLY",
+			"STURDY",
+			"SKINTIGHT" 
+		],
+		
+		"price": "60000000 USD",
+		"price_postapoc": "1000 USD" 
+	} 
+]
